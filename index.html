@@ -10,44 +10,56 @@
     <!-- travel's pictures -->
     <header>
       <h1>Il mio viaggio a Londra</h1>
-      <img src="img/pexels-bill-emrich-230794-0.jpg" alt="" />
-      <img src="img/pexels-bill-emrich-230794-1.jpg" alt="" />
-      <img src="img/pexels-bill-emrich-230794-2.jpg" alt="" />
+      <picture>
+        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="" />
+        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="" />
+        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="" />
+      </picture>
     </header>
+
     <hr />
 
     <main>
       <!-- travel's costs -->
       <section>
         <h2>Le mie spese</h2>
+
         <table>
-          <tr>
-            <th><strong>numero</strong></th>
-            <th><strong>descrizione</strong></th>
-            <th><strong>costo</strong></th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>biglietto aereo</td>
-            <td>120 £</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>biglietto aereo</td>
-            <td>120 £</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>biglietto aereo</td>
-            <td>120 £</td>
-          </tr>
-          <tr>
-            <td>totale</td>
-            <td></td>
-            <td>360 £</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>numero</th>
+              <th>descrizione</th>
+              <th>costo</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>biglietto aereo</td>
+              <td>120 &euro;</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>biglietto aereo</td>
+              <td>120 &euro;</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>biglietto aereo</td>
+              <td>120 &euro;</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="2">totale</td>
+              <td>360 &euro;</td>
+            </tr>
+          </tfoot>
         </table>
       </section>
+
       <hr />
 
       <!-- travel's activities -->
@@ -60,6 +72,7 @@
           <li>Mangiare il tipico Fish and Chips inglese &cross;</li>
         </ul>
       </section>
+
       <hr />
 
       <!-- infos -->
@@ -99,19 +112,21 @@
           </li>
         </ol>
       </section>
-      <hr />
     </main>
+
+    <hr />
 
     <!-- footer's pictures -->
     <footer>
-      <img
-        src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
-        alt=""
-      />
-      <img
-        src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg"
-        alt=""
-      />
+      <h3>Le mie foto</h3>
+      <picture>
+        <img
+          src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+        />
+        <img
+          src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg"
+        />
+      </picture>
     </footer>
   </body>
 </html>
